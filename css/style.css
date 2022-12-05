@@ -1,0 +1,208 @@
+/* EL CSS Y EL HTML SE HICIERON DESDE UN COMPUTADOR DEL SENA */
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: Century 'Franklin Gothic Medium';
+}
+
+header{
+  background-image:url(../images/angel-jimenez.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1070px;
+}
+
+header h1{
+  color: white;
+  text-align: center;
+  padding-top: 330px;
+  font-size: 240px;
+}
+
+#parte1{
+  margin: auto;
+  padding: 80px 80px;
+  font-size: 40px;
+  display: flex;
+}
+
+#parte1 article{
+  margin-top: 140px;
+  margin-left: 140px;
+  margin-right: 180px;
+  width: 740px;
+}
+
+#parte1 article a{
+  background: rgba(255, 25, 0, 0.805);
+  color: white;
+  border-radius: 34px;
+  margin: 10px;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+
+#parte1 article a:hover{
+  background: rgba(0, 0, 0, 0.332);
+}
+
+#parte1 article h1{
+  background: linear-gradient(to right, rgba(255, 51, 0, 0.772), rgb(255, 0, 179));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 70px;
+}
+
+#parte1 article h2{
+  font-size: 70px;
+}
+
+#parte1 img{
+  height: 800px;
+  margin-top: 70px;
+  margin-right: 120px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+#parte2{
+  margin: auto;
+  padding: 80px 80px;
+  font-size: 40px;
+  display: flex;
+}
+
+#parte2 article{
+  margin-top: 78px;
+  margin-left: 60px;
+  width: 720px;
+}
+
+#parte2 article a{
+  background: rgba(255, 21, 0, 0.802);
+  color: white;
+  border-radius: 34px;
+  margin: 10px;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+
+#parte2 article a:hover{
+  background: rgba(0, 0, 0, 0.332);
+}
+
+#parte2 article h1{
+  background: linear-gradient(to right, rgba(255, 51, 0, 0.772), rgb(255, 0, 179));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 70px;
+}
+
+#parte2 article h2{
+  font-size: 70px;
+}
+
+#parte2 img{
+  height: 800px;
+  margin-top: 10px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+#parte3{
+  margin: auto;
+  margin-top: 100px;
+  padding: 120px 80px;
+  font-size: 40px;
+  display: flex;
+  background-image:url(../images/john-raptis.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 780px;
+}
+
+#parte3 article{
+  color: white;
+  margin-top: 110px;
+  margin-left: 970px;
+  width: 800px;
+}
+
+#parte3 article a{
+  background: rgba(255, 21, 0, 0.815);
+  color: white;
+  border-radius: 34px;
+  margin: 10px;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+
+#parte3 article a:hover{
+  background: rgba(0, 0, 0, 0.332);
+}
+
+#parte3 article h1{
+  font-size: 70px;
+}
+
+#parte3 article h2{
+  font-size: 70px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+#parte4{
+  background-color: rgba(255, 0, 0, 0.614);
+  color: white;
+  height: 10px;
+  text-align: left;
+  padding: 70px 390px;
+}
+
+#parte4 table tr th{
+  width: 300px;
+  padding: 5px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+#parte5{
+  padding-top: 110px;
+  background-color: rgba(255, 0, 0, 0.614);
+}
+
+#parte5 footer{
+  /* border-top: */
+  color: white;
+  padding: 24px 400px;
+  font-size: 18px;
+}
+
+#parte5 hr{
+  border-color: white;
+  margin: auto;
+  width: 1120px;
+}
+
+#parte5 footer .rep{
+  float: left;
+}
+
+#parte5 footer .correo{
+  float: right;
+}
+
+#parte5 footer .clear{
+  clear: both;
+}
